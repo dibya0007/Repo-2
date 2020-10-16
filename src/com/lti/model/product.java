@@ -3,6 +3,13 @@ package com.lti.model;
 public class product {
 	int pid;
 	String pname;
+	String pdescription;
+	public int getPdescription() {
+		return pdescription;
+	}
+	public void setPdescription(String pdescription) {
+		this.pdescription =pdescription;
+	}
 	public int getPid() {
 		return pid;
 	}
