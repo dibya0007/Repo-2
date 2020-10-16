@@ -4,6 +4,10 @@ public class product {
 	int pid;
 	String pname;
 	String pdescription;
+	double price;
+	public double getPrice(){
+		return price;
+	}
 	public int getPdescription() {
 		return pdescription;
 	}
