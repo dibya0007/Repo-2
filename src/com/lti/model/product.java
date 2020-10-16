@@ -5,6 +5,7 @@ public class product {
 	String pname;
 	String pdescription;
 	double price;
+	int quantity;
 	public double getPrice(){
 		return price;
 	}
